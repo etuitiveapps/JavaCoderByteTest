@@ -17,5 +17,15 @@ public class FirstReverseClassTests {
 		assertEquals("Reverse word '"+input+"' is not '"+expected+"' ", expected, actual);
 		
 	}
+	
+	@Test
+	public void Reversecoderbyte() {
+		FirstReverseClass f = new FirstReverseClass();
+		String input = "coderbyte";
+		String expected = "etybredoc";
+		String actual = f.FirstReverse(input);
+		assertEquals("Reverse word '"+input+"' is not '"+expected+"' ", expected, actual);
+		
+	}
 
 }
