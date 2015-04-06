@@ -27,5 +27,15 @@ public class FirstReverseClassTests {
 		assertEquals("Reverse word '"+input+"' is not '"+expected+"' ", expected, actual);
 		
 	}
+	
+	@Test
+	public void ReverseI_Love_Code() {
+		FirstReverseClass f = new FirstReverseClass();
+		String input = "I Love Code";
+		String expected = "edoC evoL I";
+		String actual = f.FirstReverse(input);
+		assertEquals("Reverse word '"+input+"' is not '"+expected+"' ", expected, actual);
+		
+	}
 
 }
