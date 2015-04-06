@@ -14,7 +14,7 @@ public class FirstReverseClassTests {
 		String input = "long";
 		String expected = "gnol";
 		String actual = f.FirstReverse(input);
-		assertEquals("Reverse word '"+input+"' is not 'gnol' ", expected, actual);
+		assertEquals("Reverse word '"+input+"' is not '"+expected+"' ", expected, actual);
 		
 	}
 
